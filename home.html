@@ -4,27 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payoo| Home</title>
-    <!-- tailwind link -->
+    <title>Payoo| Login</title>
+    <!-- tailwind link  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- daisy + tailwind link -->
+    <!--tailwind + daisy link   -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="min-h-screen max-w-md mx-auto border-4 ">
-    <div class="flex justify-between">
-        <div class="left w-[60px]">
-            <img src="assets/logo.png" alt="">
-        </div>
-
-        <div class="right">
-            
-          <a href="index.html" class="btn" id="logoutbtn"><i class="fa-solid fa-arrow-right-from-bracket pt-[5px]"></i>Log Out</a>
-        </div>
-    </div>
-    <script src="script/home.js"></script>
+<body class="min-h-screen max-w-md mx-auto border-2">
+    <header>
+       <!-- duita div (left and right) -->
+        <!-- left div -> logo and with eidth 60px -->
+        <!-- right div -> login btn-->
+        <section class="border-2 w-11/12 mx-auto flex justify-between items-center">
+            <div class="left w-[60px] border-2">
+                <div>
+                    <img src="assets/logo.png" alt="">
+                </div>
+            </div>
+            <div class="right border-2">
+                <a href="index.html" class="btn"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+            </div>
+        </section>
+    </header>
 </body>
+<script src="script/login.js"></script>
+
 </html>
