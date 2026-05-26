@@ -16,10 +16,8 @@
 
 <body class="min-h-screen max-w-md mx-auto border-2">
     <header>
-       <!-- duita div (left and right) -->
-        <!-- left div -> logo and with eidth 60px -->
-        <!-- right div -> login btn-->
-        <section class="border-2 w-11/12 mx-auto flex justify-between items-center">
+
+        <section class="border-2 w-11/12 mx-auto flex justify-between items-center pt-[13px] pl-[25px] pr-[25px] pb-[8px]">
             
             <div class="left  border-2 flex justify-between">
                     <div class="logo w-[60px]">
@@ -27,15 +25,27 @@
                     </div>
                     <div class=" ">
                         <span class="text-1rem font-bold">$45000</span>
-                        <p class="text-gray-500">Available Balance</p>
+                        <p class="text-gray-500 text-[14px]">Available Balance</p>
                     </div>
                 </div>
             </div>
             <div class="right border-2">
-                <a href="index.html" class="btn"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+                <a href="index.html" class="btn text-gray-500"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
             </div>
         </section>
     </header>
+
+    <div class="welcomesection w-11/12 mx-auto border-2 pt-[13px] pb-[13px] pl-[25px] pr-[25px] ">
+        <div class="top pb-[13px] font-bold text-3xl">Welcome to Pay<span class="text-primary">oo</span></div>
+        <div class="bottom text-gray-500 text-[14px]"><p>Enjoy easy and convenient financial services with us. Cashout charge is low and</p></div>
+    </div>
+
+    <div class="options grid grid-cols-3 gap-3 w-11/12 mx-auto p-[24px]">
+        <button class="btn">
+            <img src="assets/opt-1.png" alt="">
+            <p class="text-gray-500 text-[14px]">Add money</p>
+        </button>
+    </div>
 </body>
 <script src="script/login.js"></script>
 
